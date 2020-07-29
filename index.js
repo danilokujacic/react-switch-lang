@@ -68,7 +68,7 @@ function setLanguageCookie(name, option, reqCookie) {
   cookieName = name || cookieName;
   cookieOption = Object.assign({}, cookieOption, option);
 
-  const lang = cookies.get(name);
+  const lang = cookies.get(cookieName);
 
   if (lang) {
     setLanguage(lang);
