@@ -19,7 +19,7 @@
   "author": "Narinrit <ifra@vista.aero>",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^16.1.0"
+    "react": "^18.1.0"
   },
   "dependencies": {
     "hoist-non-react-statics": "^2.5.5",
